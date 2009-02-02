@@ -4,7 +4,7 @@ require 'uri'
 require 'pathname'
 
 module Gistr
-	BASE_URI = 'http://gist.github.com/api/v1/yaml'
+	$base_uri = 'http://gist.github.com/api/v1/yaml'
 	
 	def copy(content)
 		IO.popen('pbcopy', 'r+') {|clipboard| clipboard.write(content) }
@@ -38,7 +38,7 @@ module Gistr
 	
 	def my_gists
 		user = auth[:login]
-		url = URI.parse(BASE_URI + '/gists/' + user)
+		url = URI.parse($base_uri + '/gists/' + user)
 		res = Net::HTTP.start(url.host, url.port) {|http| http.get(url.path) }
 		if res.is_a?(Net::HTTPOK)
 			return YAML.load(res.body)

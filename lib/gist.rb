@@ -12,7 +12,7 @@ class Gist
 	end
 	
 	def save
-		url = URI.parse(BASE_URI + '/new')
+		url = URI.parse($base_uri + '/new')
 		files = { "files[#{@name}]" => @content }
 		desc = @description ? {'description' => @description} : {}
 		priv = @private ? {'private' => 'on'} : {}
