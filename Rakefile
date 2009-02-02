@@ -1,16 +1,16 @@
 require 'rake'
 require 'rake/testtask'
-require 'rake/rdoctask'
+require 'hanna/rdoctask'
 require 'rcov/rcovtask'
 
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "gistr"
-    s.summary = %Q{TODO}
+    s.summary = %{Command line client for Github Gists, built for Mac OS X.}
     s.email = "mike.is.green@gmail.com"
     s.homepage = "http://github.com/mikedamage/gistr"
-    s.description = "TODO"
+    s.description = "Command line client for Github Gists, built for Mac OS X."
     s.authors = ["Mike Green"]
   end
 rescue LoadError
