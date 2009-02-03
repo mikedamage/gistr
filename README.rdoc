@@ -1,0 +1,20 @@
+= Gistr
+The *other* command line gist client
+
+Author:: Mike Green
+License:: GNU General Public License
+
+== Summary
+
+I decided to create Gistr after using the pretty schnazzy Snipplr[http://snipplr.com] command line client. The existing gist.rb[http://github.com/defunkt/gist/tree] is cool and I've relied on it as a blueprint for Gistr, but I wanted to include some extra functionality based on the Snipplr gem:
+
+
+* Ability to list your gists, along with descriptions
+* Download a gist to file, STDOUT, or the clipboard
+* Create a new public/private gist from clipboard data
+* Open/edit gists in your editor of choice and transparently update them when you save.
+* Wrap the whole thing up as a Rubygem for easy installation
+
+== Usage
+
+Coming soon

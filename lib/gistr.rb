@@ -37,11 +37,15 @@ module Gistr
 	end
 	
 	def my_gists
-		user = auth[:login]
-		url = URI.parse($base_uri + '/gists/' + user)
-		res = Net::HTTP.start(url.host, url.port) {|http| http.get(url.path) }
-		if res.is_a?(Net::HTTPOK)
-			return YAML.load(res.body)
+		if auth[:login]
+			user = auth[:login]
+			url = URI.parse($base_uri + '/gists/' + user)
+			res = Net::HTTP.start(url.host, url.port) {|http| http.get(url.path) }
+			if res.is_a?(Net::HTTPOK)
+				return YAML.load(res.body)
+			else
+				return false
+			end
 		else
 			return false
 		end

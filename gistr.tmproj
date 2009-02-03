@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>lib/gistr.rb</string>
+	<string>bin/gistr.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,17 +18,59 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>288</integer>
+	<integer>198</integer>
 	<key>metaData</key>
 	<dict>
+		<key>Rakefile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>bin/gistr.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>34</integer>
+				<key>line</key>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>gistr.gemspec</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>lib/gist.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>27</integer>
+				<key>line</key>
+				<integer>14</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -40,40 +82,27 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>12</integer>
+				<integer>27</integer>
 				<key>line</key>
-				<integer>5</integer>
+				<integer>40</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>59</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>12</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>bin/gistr.rb</string>
+		<string>gistr.gemspec</string>
 		<string>lib/gistr.rb</string>
+		<string>lib/gist.rb</string>
+		<string>Rakefile</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{303, 80}, {1137, 750}}</string>
+	<string>{{367, 84}, {1137, 750}}</string>
 </dict>
 </plist>
