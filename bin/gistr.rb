@@ -1,3 +1,9 @@
+#!/usr/bin/env ruby
+#
+# = Gistr
+# a command line gister for os x
+
+
 require 'rubygems'
 require 'trollop'
 require File.join(File.dirname(__FILE__), '../lib/gistr')
@@ -26,6 +32,12 @@ def list
 end
 
 def make_new(opts)
+	if opts[:clip]
+		content = paste
+	else
+		content = ARGV.shift
+	end
+	puts content
 end
 
 def get(opts)
